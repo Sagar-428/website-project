@@ -1,0 +1,173 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: left;
+}
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+    size: 3.5rem;
+    font-weight: bold;
+}
+.container-fluid {
+    padding: 3% 15%;
+}
+
+.navbar {
+    padding: 0 0 3rem;
+}
+
+.navbar-brand {
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.nav-item {
+    padding: 0px 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: cursive;
+}
+
+/* Download buttons */
+.download-button {
+ margin: 5% 3% 5% 0;   
+}
+
+.title-image {
+    width: 60%;
+    transform: rotate(20deg);
+    position: relative;
+    left: 20%;
+}
+
+h3 {
+    font-family: cursive;
+    font-weight: bold;
+}
+
+p {
+    color: #afafaf;
+}
+
+h2 {
+    font-family: cursive;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+#features {
+padding: 7% 15%;
+background-color: #fff;
+}
+
+.feature-box {
+    padding: 5%;
+}
+
+.icon {
+    color: lightcoral;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: crimson;
+}
+#testimonials {
+    text-align: center;
+    background-color: lightcoral;
+}
+.dog-image-class {
+    border-radius: 100%;
+    width: 12%;
+    margin: 20px;
+}
+
+.testimonial-image {
+    border-radius: 100%;
+    width: 12%;
+    margin: 20px;
+}
+
+#press {
+    background-color: lightcoral;
+    padding-bottom: 3%;
+}
+.press-logo {
+    width: 15%;
+    padding: 10px 20px 50px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.card {
+    text-align: center;
+}
+
+#pricing {
+    padding: 50px;
+}
+.doggy1 {
+    padding-top: 30px;
+}
+.doggy2 {
+    font-weight: 800;
+    font-family: cursive;
+    font-size: 1.5rem;
+}
+.pricing-col{
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.price-btn {
+    width: 80%;
+}
+
+@media (max-width: 1028px){
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+    #title {
+        text-align: center;
+    }
+    .navg-fonts {
+        font-weight: bold;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    h3 {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .doggy1 {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+}
+
+#cta {
+    background-color: lightcoral;
+    color: #fff;
+    padding: 5% 10%;
+}
+.cta-heading {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.5rem;
+    line-height: 2;
+}
+
+#footer {
+    padding: 3% 15%;
+}
+.social-icon {
+    margin: 20px 10px;
+    font-size: 1.5rem;
+}
+
+/* id has higher priority than class selectors and inline styling has higher priorities than id */
